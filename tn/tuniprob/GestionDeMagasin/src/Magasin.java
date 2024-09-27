@@ -27,7 +27,7 @@ public class Magasin {
         }
     }
 
-    // Display store characteristics and product details
+
     public void afficherCaracteristiques() {
         System.out.println("Magasin ID: " + id);
         System.out.println("Adresse: " + adresse);

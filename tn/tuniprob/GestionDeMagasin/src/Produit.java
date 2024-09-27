@@ -15,7 +15,7 @@ public class Produit {
         this.lib = "";
         this.brand = "";
         this.price = 0.0;
-        this.dateExpiration = new Date(); // current date by default
+        this.dateExpiration = new Date();
     }
 
     public Produit(int id, String lib, String brand, double price, Date dateExpiration) {
@@ -26,7 +26,7 @@ public class Produit {
         this.dateExpiration = dateExpiration;
     }
 
-    // Price validation: should not be negative
+
     public void setPrice(double price) {
         if (price >= 0) {
             this.price = price;
